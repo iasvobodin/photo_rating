@@ -1,14 +1,15 @@
 {
   "applicationId": "js.neutralino.zero",
   "version": "1.0.0",
+  "port": 8080,
   "defaultMode": "window",
   "documentRoot": "/dist/",
-  "url": "/dist/",
+  "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
   "modes": {
     "window": {
-      "title": "nn",
+      "title": "PhotoRating",
       "width": 800,
       "height": 500,
       "minWidth": 400,
@@ -22,7 +23,7 @@
       "patchFile": "/index.html",
       "devUrl": "http://localhost:3000"
     },
-    "binaryName": "nn",
+    "binaryName": "PhotoRating",
     "resourcesPath": "/dist/",
     "extensionsPath": "/extensions/",
     "clientLibrary": "/public/neutralino.js",
